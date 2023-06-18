@@ -69,19 +69,19 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-           <plugin>  
+        <plugin>  
             <!-- Build an executable JAR -->  
             <groupId>org.apache.maven.plugins</groupId>  
             <artifactId>maven-jar-plugin</artifactId>  
-            <version>3.5.0</version>  
+            <version>3.1.0</version>  
             <configuration>  
                 <archive>  
                     <manifest>  
-                        <mainClass>com.jav.AppMain</mainClass>  
+                        <mainClass>com.javatpoint.AppMain</mainClass>  
                     </manifest>  
                 </archive>  
             </configuration>  
-        </plugin>  
+        </plugin>        
       </plugins>
     </pluginManagement>
   </build>
